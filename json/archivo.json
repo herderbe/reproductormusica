@@ -1,0 +1,35 @@
+{
+    "canciones": [
+        {
+            "nombre": "Darkside",
+            "artista": "Alan Walker",
+            "url":"musicas/Darkside.mp3"
+        }
+        ,
+        {
+            "nombre": "Royalty",
+            "artista": "Conor Maynard",
+            "url":"musicas/Royalty.mp3"
+        },
+        {
+            "nombre": "Give Up",
+            "artista": "Faydee",
+            "url":"musicas/Give Up.mp3"
+        },
+        {
+            "nombre": "Faded",
+            "artista": "Alan Walker",
+            "url":"musicas/Faded.mp3"
+        },
+        {
+            "nombre": "The Spectre",
+            "artista": "Alan Walker",
+            "url":"musicas/The Spectre.mp3"
+        },
+        {
+            "nombre": "Arcade",
+            "artista": "Duncan Laurence",
+            "url":"musicas/Arcade.mp3"
+        }
+    ]
+}

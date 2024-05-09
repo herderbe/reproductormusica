@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/fondo.jpg);
+    background-position: center;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.sub-cont{
+    overflow: hidden;
+    position: relative;
+    background-color: #000000;
+    color: #ffffff;
+    border: solid thin;
+    border-radius: 10px;
+    padding: 10px;
+    min-width: 40%;
+    margin: 10px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info .imagen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.imagen .numero{
+    margin-bottom: 10px;
+}
+.imagen .nombre-cancion{
+    font-weight: 600;
+    font-size: 30px;
+}
+.info img{
+    background-color: aqua;
+    margin-top: 5px;
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+}
+.controles{
+    margin-bottom: 10px;
+}
+.controles .tiempo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+.tiempo .rango{
+    width: 100%;
+}
+.botones{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    gap: 10px;
+}
+.botones .in{
+    background-color: #ffffff;
+    border: solid thin;
+    display: flex;
+    color: black;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+    padding: 5px;
+}
+.cambio{
+    display: none;
+}
+.bx-skip-previous,
+.bx-skip-next{
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 50%;
+}
+.volumen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.volu{
+    outline: none;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.volu,
+.rango{
+    appearance: none;
+    height: 5px;
+    background: #2f71f6;
+    border-radius: 5px;
+}
+.volu::-webkit-slider-thumb,
+.rango::-webkit-slider-thumb{
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border: solid 2px #2f71f6;
+    border-radius: 100%;
+    cursor: grab;
+}

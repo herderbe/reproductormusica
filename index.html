@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href=" " type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>Musica</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="sub-cont">
+            <div class="info">
+                <div class="imagen">
+                    <p class="numero">Reproduciendo Cancion <span class="nu"></span> de 6</p>
+                    <img src="img/Darkside.jpg" alt="Musica" id="imagen">
+                    <p class="nombre-cancion">Darkside</p>
+                    <p class="nombre-artista">Alan walker</p>
+                </div>
+            </div>
+            <div class="controles">
+                <div class="tiempo">
+                    <span id="duracionActual">00:00</span>
+                    <input class="rango" type="range" maxlength="100" minlength="0" value="0" id="rango">
+                    <span id="duracion">00:00</span>
+                </div>
+                <div class="volumen">
+                    <i class='bx bx-volume-low' ></i>
+                    <input class="volu" type="range" minlength="0" maxlength="100" value="50" id="vol">
+                    <span id="numVolumen">50%</span>
+                </div>
+                <audio src="" id="audio"></audio>
+                <div class="botones">
+                    <i class='bx bx-skip-previous' id="prevent"></i>
+                    <div class="in">
+                    <i class='bx bx-play' id="play"></i>
+                    <i class='bx bx-pause cambio' id="pause"></i>
+                    </div>
+                    <i class='bx bx-skip-next' id="next"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
